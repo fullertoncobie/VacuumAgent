@@ -1,8 +1,8 @@
 import heapq
 from typing import Tuple, Dict, List, Optional, Set
-from direction import Direction
-from environment import Environment
-from vacuum_settings import VacuumSettings
+from VacuumSettings import VacuumSettings
+from Direction import Direction
+from Environment import Environment
 
 class VacuumAgent:
     """
