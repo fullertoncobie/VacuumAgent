@@ -42,8 +42,6 @@ class Environment:
         if 0 >= dust_weight - pressure:
             self.grid[(x, y)]['dust_weight'] = 0
             self.grid[(x, y)]['cleaned'] = True
-        else:
-            self.grid[(x, y)]['dust_weight'] -= pressure
 
     def get_dimensions(self) -> Tuple[int, int]:
         """Get maximum x and y coordinates in the grid."""
