@@ -7,9 +7,10 @@ a virtual grid-based environment.
 
 import argparse
 import time
-from environment import Environment
-from vacuum_settings import VacuumSettings
-from vacuum_agent import VacuumAgent
+from Environment import Environment
+from VacuumSettings import VacuumSettings
+from VacuumAgent import VacuumAgent
+from Direction import Direction
 
 def run_simulation(settings_file: str, area_file: str, verbose: bool):
     """
