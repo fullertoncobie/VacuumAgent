@@ -1,7 +1,3 @@
-"""
-Direction module for vacuum agent navigation.
-Represents cardinal directions with movement vectors and angle information.
-"""
 from enum import Enum
 from typing import Tuple, Optional
 
