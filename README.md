@@ -11,7 +11,7 @@ options:
   -h, --help Show this help message and exit <br/>
   -v, --verbose Enable verbose output <br/>
   -s, --settings Path to settings file (default: setting.txt) <br/>
-  -a, --area Path to area file (default: area.csv)Input Files <br/>
+  -a, --area Path to area file (default: area.csv) <br/>
 
 ## Input Files
 
